@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <title>Mi Página Web</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-end mt-4">
+      <div class="col-auto">
+        <button class="btn btn-primary" id="toggleButton" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
+          <span id="toggleIcon">+</span> Menú
+        </button>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col">
+        <div class="collapse" id="collapseMenu">
+          <div class="card card-body">
+            <input type="text" class="form-control mb-2" placeholder="Input 1">
+            <input type="text" class="form-control mb-2" placeholder="Input 2">
+            <input type="text" class="form-control mb-2" placeholder="Input 3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Cambia el ícono del botón al hacer clic en el menú
+    $('#collapseMenu').on('show.bs.collapse', function () {
+      $('#toggleIcon').text('-');
+    });
+
+    $('#collapseMenu').on('hide.bs.collapse', function () {
+      $('#toggleIcon').text('+');
+    });
+  </script>
+</body>
+</html>

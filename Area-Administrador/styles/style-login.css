@@ -1,0 +1,36 @@
+.user-icon {
+    font-size: 2em; /* Tamaño deseado (puedes ajustar este valor) */
+}
+.custom-navbar{
+    background-color: #04AA6D;
+}
+
+.container{
+    margin-left: 250px;
+}
+ 
+ /* Custom styles for centering login card and footer */
+ body {
+    background-image: url('your-background-image.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #f8f9fa; /* Fallback background color */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the opacity as needed */
+}
+
+.footer {
+    background-color: #000; /* Black background color for the footer */
+    color: #fff; /* Text color for the footer */
+}

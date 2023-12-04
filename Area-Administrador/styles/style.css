@@ -1,0 +1,62 @@
+
+/* Personaliza el tamaño del icono de usuario */
+.user-icon {
+    font-size: 2em; /* Tamaño deseado (puedes ajustar este valor) */
+}
+.custom-navbar{
+    background-color: #04AA6D;
+}
+
+.container{
+    margin-left: 250px;
+}
+
+ /* Personaliza la barra de navegación izquierda */
+ .sidebar {
+    position: fixed;
+    left: 30px;
+    top: 130px; /* 50px para dejar espacio desde el navbar */
+    bottom: 0;
+    height: 50%;
+    width: 200px;
+    padding: 35px 0;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    z-index: 1000;
+}
+
+.sidebar-item {
+    padding: 10px 20px;
+    display: block;
+    color: #343a40;
+    text-decoration: none;
+}
+
+.sidebar-item:hover {
+    background-color: #e9ecef;
+}
+
+/* Estilo para el botón de mostrar/ocultar */
+#toggleSidebarButton {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .d-none {
+    display: none !important;
+}
+
+    .container {
+        margin-left: 0;
+    }
+
+    #toggleSidebarButton {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+}
