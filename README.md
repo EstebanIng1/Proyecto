@@ -50,6 +50,6 @@ Power Bi:
 La herramienta ofrece una amplia gama de visualizaciones predefinidas (gráficos, tablas dinámicas, mapas, etc.) que permiten presentar datos de manera efectiva. Estas visualizaciones son altamente interactivas y se pueden personalizar según las necesidades del usuario.
 
 
-##Sobre que es:
+# Sobre que es:
 El proyecto trata sobre analisis cuantitativo y cualitativo se utilizo como tesis de grado, esto con el fin de poderse utilizar para hacer comparativas entre intituciones del municipio de Soacha mediante informes de  Power Bi donde se realizan encuestas como metodo de levantamiento de información.
 ###End
